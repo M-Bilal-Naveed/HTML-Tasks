@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <h3>Class Task Form</h3>
+        <form action="action_page.php" target="_blank">
+            <label for="name" >Name:</label>
+            <input type="text" name="username" placeholder="Enter Your Name">
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" name="email" placeholder="Enter Your Email">
+            <br>
+            <label for="password">Password:</label>
+            <input type="password" name="password" placeholder="Enter Password">
+            <br>
+            <label for="age">Age:</label>
+            <input type="number" name="age" min="1" max="120" placeholder="" >
+            <br>
+            <fieldset>
+            <legend> <label for="gender">Gender</label> </legend>
+            <br>
+            <input type="radio" name="gender" value="Male">
+            <label>Male</label>
+            <input type="radio" name="gender" value="Female">
+            <label>Female</label>
+            <input type="radio" name="gender" value="Other">
+            <label>Other</label>
+        </fieldset>
+        <br>
+        <input type="checkbox" name="checkbox" value="checkbox">
+        <label for="Subscribe">Subscribe for newsletter</label>
+        <br>
+        <br>
+        <label for="countery">Countery</label>
+        <select name="countery" aria-placeholder="select your countery">
+            <option value="USA">USA</option>
+            <option value="PAK">PAK</option>
+            <option value="IND">IND</option>
+            <option value="UK">UK</option>
+            <option value="CANDA">CANDA</option>
+        </select>
+        <br>
+        <br>
+        <label for="Biography">Biography:</label>
+        <br>
+        <textarea name="feedback" placeholder="Tell us about yorself"></textarea>
+        <br>
+        <br>
+        <label for="file">Upload a profile Picture:</label>
+        <input type="file" name="file" value="file">
+        <br>
+        <br>
+        <label for="date">Date of Birth:</label>
+        <input type="date" name="Date" value="Date">
+        <br>
+        <br>
+        <label for="Timing">Appiontment Time:</label>
+        <input type="time" name="Time" value="Time">
+        <br>
+        <br>
+        <label for="valume">Volume Level:</label>
+        <input type="range" name="volume" min="0" max="100" value="50">
+        <br><br>
+        <label for="color">Favorite Color:</label>
+        <input type="color" name="color" value="color"> 
+        <br><br>
+        <input type="submit" name="submit" value="submit">
+        <input type="reset" name="reset" value="reset">
+        </form>
+    </main>
+</body>
+</html>
